@@ -1,0 +1,21 @@
+{
+  "$schema": "target/schemas/.application.schema.json",
+  "moduleId": "FED_CC_AMBASSADOR",
+  "appDefinitionId": "1cea29c1-a59c-4e10-a411-15b7c31a46c2",
+  "isCoreService": true,
+  "routeNamespace": "fed-cc-ambassador",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://290741e332084ce5b73f2f1c395477b9@sentry.wixpress.com/2879",
+    "id": "290741e332084ce5b73f2f1c395477b9",
+    "projectName": "fed-cc-ambassador",
+    "teamName": "ccteam",
+    "errorMonitor": true
+  },
+  "experiments": {
+    "centralized": true
+  },
+  "enabledByExperiments": ["specs.infra.yoshi-bm.ChangeMe"]
+}

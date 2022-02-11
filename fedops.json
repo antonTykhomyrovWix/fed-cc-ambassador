@@ -1,0 +1,21 @@
+[
+  {
+    "appName": "fed-cc-ambassador.pages.index",
+    "notifications": {
+      "slack_channels": [
+        "fed-cc-ambassador-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "fed-cc-ambassador",
+      "business-manager"
+    ],
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-1cea29c1-a59c-4e10-a411-15b7c31a46c2"
+      ]
+    },
+    "ignore_first_request_roundtrip": true
+  }
+]
