@@ -30,6 +30,7 @@
     "@types/chance": "^1.0.6",
     "@types/node": "^14.0.0",
     "@types/react": "^16.9.0",
+    "@wix/ambassador-node-workshop-scala-app": "^1.0.20",
     "@wix/sled-test-runner": "^1.0.0",
     "@wix/yoshi-flow-bm": "^5.0.0",
     "husky": "~4.2.1",
@@ -37,7 +38,10 @@
     "puppeteer": "^5.5.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "typescript": "~4.1.2"
+    "typescript": "~4.1.2",
+    "yoshi-serverless": "^5.0.1",
+    "yoshi-serverless-client": "^4.333.1",
+    "yoshi-serverless-testing": "^5.0.1"
   },
   "dependencies": {
     "wix-style-react": "^9.0.0"
