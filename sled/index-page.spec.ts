@@ -1,9 +1,9 @@
-/// <reference types="@wix/sled-test-runner" />
+/// <reference types="sled-test-runner" />
 // ⚠️ Remember:
 // 1. Ensure your application is ready (fully loaded, interactive and finished animations) before you're starting to perform actions / take screenshots
 // 2. Each spec file running 3 times in parallel!
 import { Page } from 'puppeteer';
-import { injectBMOverrides } from '@wix/yoshi-flow-bm/sled';
+import { injectBMOverrides } from 'yoshi-flow-bm';
 import { TextTestkit } from 'wix-style-react/dist/testkit/puppeteer';
 
 describe('happy flow', () => {

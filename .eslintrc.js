@@ -1,3 +1,3 @@
 module.exports = {
-  extends: require.resolve('@wix/yoshi-flow-bm/eslint'),
+  extends: require.resolve('yoshi-flow-bm/eslint'),
 };

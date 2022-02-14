@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { PageHeaderTestkit } from 'wix-style-react/dist/testkit';
-import { testkit } from '@wix/yoshi-flow-bm/testkit';
+import { testkit } from 'yoshi-flow-bm/testkit';
 import Index from './index';
 
 describe('index', () => {

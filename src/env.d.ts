@@ -1,1 +1,2 @@
-/// <reference types="@wix/yoshi-flow-bm/types" />
+/// <reference types="yoshi-flow-bm/types" />
+/// <reference types="jest-yoshi-preset/types" />

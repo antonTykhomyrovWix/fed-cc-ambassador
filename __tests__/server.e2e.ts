@@ -21,7 +21,7 @@ describe('Ambassador module', () => {
       serverlessApp.ambassador.createStub(NodeWorkshopScalaApp);
     commentsStub.CommentsService().fetch.when(siteId).resolve([mockComment]);
 
-    const response = await client.request(fetchComments())();
+    const response = await client.request(fetchComments)();
     expect(response).toEqual([mockComment]);
   });
 });
